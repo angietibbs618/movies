@@ -1,12 +1,12 @@
 import fresh_tomatoes
 import movie
 
+#this is how i listed my fav movies including title trailer and synopsis 
 fifty_shades_of_grey = movie.Movie("Fifty Shades of Grey",
                                    "An unconventional Love story",
                                    "http://www.tribute.ca/news/wp-content/uploads/2015/02/FiftyShadesofGrey.jpg",
                                    "https://www.youtube.com/watch?v=SfZWFDs0LxA")
-#print(fifty_shades_of_grey.storyline)
-#fifty_shades_of_grey.show_trailer()
+
 
 fifty_shades_darker = movie.Movie("Fifty Shades Darker",
                                   "part two of the Love story",
@@ -32,7 +32,7 @@ step_brothers = movie.Movie("Step Brothers",
                             "40 year old men still living at home become step brothers",
                             "http://www.sonypictures.com/movies/stepbrothers/assets/images/onesheet.jpg",
                             "https://www.youtube.com/watch?v=_0TWeOrIYVI")
-
+#below is an array of the movies and the fresh tomatoes info to run the page
                           
 movies = [fifty_shades_of_grey, fifty_shades_darker, fifty_shades_freed, passangers, hunger_games, step_brothers]
 fresh_tomatoes.open_movies_page(movies)
