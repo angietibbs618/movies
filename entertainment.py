@@ -34,7 +34,8 @@ step_brothers = movie.Movie("Step Brothers",
                             "https://www.youtube.com/watch?v=_0TWeOrIYVI")
 #below is an array of the movies and the fresh tomatoes info to run the page
                           
-movies = [fifty_shades_of_grey, fifty_shades_darker, fifty_shades_freed, passangers, hunger_games, step_brothers]
+movies = [fifty_shades_of_grey, fifty_shades_darker, fifty_shades_freed,
+passangers, hunger_games, step_brothers]
 fresh_tomatoes.open_movies_page(movies)
 #print (movie.Movie.valid_ratings)
 #print(movie.Movie.__doc__)
