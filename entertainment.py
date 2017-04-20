@@ -10,7 +10,7 @@ fifty_shades_of_grey = movie.Movie("Fifty Shades of Grey",
 
 fifty_shades_darker = movie.Movie("Fifty Shades Darker",
                                   "part two of the Love story",
-                                  "http://t0.gstatic.com/images?q=tbn:ANd9GcTm7vaHWXiIkfKAWAwrxRGyfZFCLQ1tVPIVnyQYVUfV74fwws5P",
+                                  "https://www.cineworld.co.uk/xmedia-cw/repo/feats/posters/HO00004049.jpg",
                                   "https://www.youtube.com/watch?v=qAxK-SYF1eQ")
 
 fifty_shades_freed = movie.Movie("Fifty Shades Freed",
@@ -25,7 +25,7 @@ passangers = movie.Movie("Passangers",
 
 hunger_games = movie.Movie("Hunger Games",
                            "real life survival game",
-                           "http://ricmeyers.com/wp-content/ric-meyers-uploads/2012/03/the-hunger-games-movie-poster-24.jpg",
+                           "http://www.impawards.com/2012/posters/hunger_games_ver26_xlg.jpg",
                            "https://www.youtube.com/watch?v=mfmrPu43DF8")
 
 step_brothers = movie.Movie("Step Brothers",
